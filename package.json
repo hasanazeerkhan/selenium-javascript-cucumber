@@ -1,0 +1,23 @@
+{
+  "name": "selenium-practice-form",
+  "version": "1.0.0",
+  "description": "Demo Sign-Up Selenium Automation Practice Form",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require step_definitions/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasanazeer/selenium-practice-form.git"
+  },
+  "author": "Mohammed Hasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hasanazeer/selenium-practice-form/issues"
+  },
+  "homepage": "https://github.com/hasanazeer/selenium-practice-form#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^9.1.2",
+    "selenium-webdriver": "^4.9.1"
+  }
+}
